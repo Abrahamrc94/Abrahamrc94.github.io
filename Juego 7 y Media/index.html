@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>7 y Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="datosJugador">
+                Total Jugador: <span id="puntosJugador"></span> 
+                <button id="botonPlantar">Me planto</button>
+            </td>
+            <td id="datosBanca">
+                Total Banca: <span id="puntosBanca"></span>
+            </td>
+        </tr>
+        <tr id="cartas">
+            <td>
+                <div id="jugador">
+                    <div id="cartaAbajoJugador" class="cartaAbajo"><img src="./imagenes/imagenes/trasera_jug.jpg" id="pedirCartaJugador"></div>
+                    <div id="cartaArribaJugador" class="cartaArriba"><img src="" id="cartaJugador"></div>
+                    <div id="arrayCartasJugador" class="arrayCartas"></div>
+                </div>
+            </td>
+            <td>
+                <div id="cartaAbajoBanca" class="cartaAbajo"><img src="./imagenes/imagenes/trasera.jpg" id="pedirCartaBanca"></div>
+                <div id="cartaArribaBanca" class="cartaArriba"><img src="" id="cartaBanca"></div>
+                <div id="arrayCartasBanca" class="arrayCartas"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center">
+                Ganador: <span id="ganador"></span>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <button id="reiniciar">Reiniciar</button>
+    <script src="juego.js"></script>
+</body>
+</html>

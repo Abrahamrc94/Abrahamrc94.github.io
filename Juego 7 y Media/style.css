@@ -1,0 +1,64 @@
+body{
+    background-image: url("./imagenes/imagenes/Fondo.jpg");
+}
+
+#datosJugador button{
+    margin-right: 50%;
+    float: right;
+}
+
+#cartas td{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    vertical-align: 0%;
+}
+
+.cartaAbajo{
+    float: left;
+}
+
+.cartaArriba{
+    padding-top: 10%;
+    padding-right: 10%;
+    float: right;
+}
+
+.cartaArriba img{
+    width: 200px;
+    height: auto;
+}
+
+.arraycartas{
+    clear: both;
+}
+
+.arrayCartas img{
+    padding-top: 5%;
+    padding-left: 2%;
+    margin-bottom: -25%;
+    width: 100px;
+    height: auto;
+}
+
+#ganador{
+    color: red;
+    font-size: 24px;
+}
+
+#puntosJugador, #puntosBanca{
+    color: blue;
+    font-size: 24px;
+}
+
+button{
+    size: 20px;
+}
+
+#botonPlantar, #reiniciar{
+    background-color: #4CAF50;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
